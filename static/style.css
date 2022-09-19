@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(255, 246, 248);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+
+ul{
+    list-style: none;
+    border: 1px solid rgb(195, 195, 195);
+    padding:30px;
+    border-radius: 10px;
+}
+
+ul> li{
+    margin:10px;
+}
+ul > li > a{
+    text-decoration:  none;
+    font-size:28px;
+    color:rgb(27, 23, 23);
+    font-weight: 600;
+}
+ul > li > a:hover{
+    color:purple;
+}
